@@ -13,18 +13,16 @@
     background-color: #1f5156;
 }
 
-.left{
 
-}
 
-.left h3{
+.logo h3{
     /* border: 1px solid black; */
     color: white;
     margin-top: 18px;
 }
 
 
-.right{
+.nav_links{
     /* border: 1px solid black; */
 
     padding: 20px;
