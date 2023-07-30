@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import {FaBars} from "react-icons/fa"
 const Navbar = () => {
 
-    const [mobile, setmobile] = useState(false)
+    const [mobile, setMobile] = useState(false)
 
   return (
       <div className={Styles.main}>
@@ -20,7 +20,7 @@ const Navbar = () => {
               <Link to="/logout">Logout</Link>
           </div>
 
-          <button className={Styles.mobilemenu}>
+          <button className={Styles.mobilemenu} onClick={()=>setMobile(!mobile)}>
               <FaBars/>
           </button>
 
