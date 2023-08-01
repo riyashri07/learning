@@ -22,7 +22,7 @@
 }
 
 
-.nav_links{
+.navlinks{
     /* border: 1px solid black; */
 
     padding: 20px;
@@ -56,6 +56,12 @@ button{
 display: none;
 }
 
+
+
+
+
+
+
 @media(max-width:768px){
     a {
 display: none;
@@ -65,7 +71,11 @@ display: none;
 display: block;
 }
 
- .nav-links-mobile {
+  .navlinks {
+    display: none;
+  }
+
+ .navlinksmobile {
     position: absolute;
     display: block;
     list-style: none;
@@ -75,5 +85,18 @@ display: block;
     transition: all 0.5s ease-in-out;
     width: 100%;
     background-color: white;
+  }
+
+   ul li {
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+  }
+
+    .mobilemenu {
+    position: absolute;
+    display: block;
+    right: 20px;
   }
 }
